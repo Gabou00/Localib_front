@@ -1,0 +1,48 @@
+.header {
+  display: grid;
+}
+
+.logoLocalib {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 0px grey;
+  margin: 40px;
+}
+
+.logoLocalib:hover {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 0px grey;
+  margin: 40px;
+  transform: rotate(-360deg);
+  transition: transform 2000ms ease-in-out;
+}
+
+.title {
+  grid-column: 5;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-shadow: 4px 4px 4px grey;;
+}
+
+.slogan {
+  grid-column: 5;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.barreSeparation {
+  background-color: #64626269;
+  height: 1px;
+  grid-column: 1/6;
+}

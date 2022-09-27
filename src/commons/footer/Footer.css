@@ -1,0 +1,43 @@
+  footer{
+    position:absolute;
+    bottom:0;  
+    height:60px;
+    font-size: small;
+    }
+
+
+  .ul1 {
+    display: flex;
+    /* position verticale */
+    align-items: center;
+    color: #353535;
+    font-weight: bold;
+    list-style: none;
+    padding: 1rem;
+    width: 97vw;
+  }
+  
+  #barre {
+    display: flex;
+    /* position: absolute; */
+    height: 0.1px;
+    width: 100%;
+    background-color: #64626269;
+  }
+  
+  .blockfooterPalier {
+    width: 90vw;
+  }
+  
+  .blockfooter {
+    width: 15rem;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .blockfooter span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    }
+  
