@@ -1,0 +1,27 @@
+.linkStyleDesktop {
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black ;
+  display: inline-block;
+  position: relative;
+}
+
+.linkStyleDesktop:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4d4d4d;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.linkStyleDesktop:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: #4d4d4d;
+}

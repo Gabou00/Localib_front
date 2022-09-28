@@ -1,0 +1,17 @@
+.navbar--desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/6;
+    grid-row: 2;
+    height: 30px;
+    width: 90%;
+   }
+
+  .navbar--desktop__navlist {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 80px;
+    width: 70%;
+  }

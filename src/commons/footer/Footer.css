@@ -1,7 +1,6 @@
   footer{
     position:absolute;
     bottom:0;  
-    height:60px;
     font-size: small;
     }
 
@@ -13,8 +12,8 @@
     color: #353535;
     font-weight: bold;
     list-style: none;
-    padding: 1rem;
-    width: 97vw;
+    padding: 10px;
+    width: 98vw;
   }
   
   #barre {
@@ -30,11 +29,15 @@
   }
   
   .blockfooter {
-    width: 15rem;
-    justify-content: center;
+    width: 14rem;
+    justify-content: space-evenly;
     display: flex;
   }
-  
+
+span {
+  justify-content: center;
+  display: flex;
+}
   .blockfooter span:hover {
     cursor: pointer;
     text-decoration: underline;
