@@ -1,11 +1,56 @@
-.containerUser {
-    width: 80%;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 10px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid black;
+.gestionLocataires {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  list-style: none;
+}
+
+.containerHeadUser {
+  display: flex;
+  justify-content: space-around;
+}
+
+.idUser,
+.nameUser,
+.firstnameUser,
+.birthdateUser,
+.emailUser,
+.phoneUser {
+  margin-top: 30px;
+  padding: 5px 30px 5px 30px;
+  width: 25%;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: large;*/
+  background-color: rgba(179, 177, 177, 0.681);
+  font-weight: bold;
+}
+
+.liBodyUser {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.idBody,
+.nameBody,
+.firstnameBody,
+.birthdateBody,
+.emailBody,
+.phoneBody {
+  margin-top: 10px;
+  padding: 5px 25px 5px 25px;
+  width: 80%;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(233, 233, 233, 0.681);
+  font-weight: bold;
 }
