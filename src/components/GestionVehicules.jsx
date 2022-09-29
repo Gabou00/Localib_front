@@ -6,7 +6,7 @@ import VehiculeItem from "./VehiculeItem"
 
 function GestionVehicules() {
   return (
-    <div className="gestionVehicule">
+    <table className="gestionVehicule">
       <ul className="ulHeadVehicule">
         <div className="containerVehicule">
           <li className="marqueVehicule">Photo</li>
@@ -32,9 +32,11 @@ function GestionVehicules() {
         disponibilite = {vehicule.disponibilite}
         type = {vehicule.type}
         />
-      ))}   
-        </ul>
-    </div>
+        ))}   
+
+      <button onClick={function add() {("Hello")}}>Ajouter un véhicule</button>
+      </ul>
+    </table>
   );
 }
 

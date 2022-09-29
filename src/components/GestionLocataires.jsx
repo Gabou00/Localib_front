@@ -9,7 +9,8 @@ import "../styles/GestionLocataires.css";
 
 function GestionLocataires() {
   return (
-    <div className="gestionLocataires">
+    <table className="gestionLocataires">
+
       <ul className="ulUser">
         <div className="containerHeadUser">
           <li className="idUser">ID</li>
@@ -32,7 +33,7 @@ function GestionLocataires() {
         </div>
       </ul>
 
-    </div>
+    </table>
   );
 }
 

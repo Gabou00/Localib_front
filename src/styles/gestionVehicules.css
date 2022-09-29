@@ -1,8 +1,6 @@
 .gestionVehicule{
-  width: 95%;
-  margin: auto;
+  width: 100%;
   padding: 10px;
-  list-style: none;
 }
 
 .containerVehicule {
@@ -25,13 +23,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* font-size: large;*/
   background-color: rgba(179, 177, 177, 0.681);
   font-weight: bold;
 }
 
 
 .ulBodyVehicule {
-  width: 95%;
   margin-top: -17px;
 }
