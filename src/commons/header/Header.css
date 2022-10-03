@@ -55,3 +55,49 @@
   height: 1px;
   grid-column: 1/6;
 }
+
+/*Version 542*/
+@media (max-width: 542px) {
+  .title {
+    grid-column: 5;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-shadow: 4px 4px 4px grey;;
+}
+
+
+.logoLocalib {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 0px grey;
+  margin: 5px;
+  height: 120px;
+}
+
+.logoLocalib:hover {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 0px grey;
+  transform: scaleX(0);
+  margin: 5px;
+  transform: rotate(-360deg);
+  transition: transform 2000ms ease-in-out;
+}
+
+.slogan {
+  grid-column: 5;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 60px;
+  font-size: 1l0px;
+  padding: 20px;
+}
+
+}
